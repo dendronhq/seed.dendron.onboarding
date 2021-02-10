@@ -1,0 +1,12 @@
+site:
+    copyAssets: true
+    siteHierarchies:
+        - root
+    siteRootDir: docs
+    usePrettyRefs: true
+vaults:
+    -
+        fsPath: vault
+version: 1
+useFMTitle: true
+useNoteTitleForLink: true
