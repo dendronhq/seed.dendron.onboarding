@@ -5,9 +5,28 @@ site:
     siteRootDir: docs
     siteUrl: 'https://foo.com'
     usePrettyRefs: true
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - vault2
+            - vault
+            - AF4JM.wiki
+            - tldr
+            - aws
 vaults:
+    -
+        fsPath: aws
+        remote:
+            type: git
+            url: 'https://github.com/dendronhq/dendron-aws-vault.git'
+        name: aws
+    -
+        fsPath: tldr/vault
+        name: tldr
+    -
+        fsPath: vault2
     -
         fsPath: vault
 version: 1
-useFMTitle: true
+useFMTitle: false
 useNoteTitleForLink: true
