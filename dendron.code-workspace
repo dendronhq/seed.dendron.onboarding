@@ -6,6 +6,8 @@
     ],
     "settings": {
         "dendron.rootDir": ".",
+        "dendron.defaultJournalAddBehavior": "asOwnDomain",
+        "dendron.dailyJournalDomain": "journal",
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "workbench.colorTheme": "GitHub Light",
@@ -24,7 +26,6 @@
     "extensions": {
         "recommendations": [
             "dendron.dendron-paste-image",
-            "equinusocio.vsc-material-theme",
             "dendron.dendron-markdown-shortcuts",
             "dendron.dendron-markdown-preview-enhanced",
             "dendron.dendron-markdown-links",
