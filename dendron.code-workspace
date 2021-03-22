@@ -6,8 +6,6 @@
     ],
     "settings": {
         "dendron.rootDir": ".",
-        "dendron.defaultJournalAddBehavior": "asOwnDomain",
-        "dendron.dailyJournalDomain": "journal",
         "editor.minimap.enabled": false,
         "files.autoSave": "onFocusChange",
         "workbench.colorTheme": "GitHub Light",
@@ -15,8 +13,6 @@
         "pasteImage.prefix": "/",
         "markdown-preview-enhanced.enableWikiLinkSyntax": true,
         "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
-        "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
-        "vscodeMarkdownNotes.slugifyCharacter": "NONE",
         "editor.snippetSuggestions": "inline",
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggest.showSnippets": true,
