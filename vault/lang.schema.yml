@@ -67,7 +67,6 @@ schemas:
 - id: d
   title: data structure
   children:
-    - blahblah
     - boolean
     - string
     - array
@@ -78,7 +77,6 @@ schemas:
     - validation
     - iterator
     - bottom
-- id: blahblah
 - id: validation
   description: "runtime validation of data"
 - id: boolean
