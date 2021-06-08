@@ -1,6 +1,4 @@
 .dendron.*
-vault
-
 dendron-site/vault
 
 vault2
@@ -10,3 +8,9 @@ vault2
 tldr/vault
 
 aws
+
+dendron/vault
+
+vault2
+
+dendron/vault
