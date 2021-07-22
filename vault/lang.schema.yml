@@ -71,8 +71,6 @@ schemas:
     - string
     - array
     - dict
-    - csv
-    - json
     - set
     - validation
     - iterator
