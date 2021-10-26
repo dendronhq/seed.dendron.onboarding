@@ -4,6 +4,7 @@ noLegacyNoteRef: true
 mermaid: true
 useKatex: true
 usePrettyRefs: true
+autoFoldFrontmatter: false
 dev:
     enablePreviewV2: true
 site:
