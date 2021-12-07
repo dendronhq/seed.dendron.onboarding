@@ -5,6 +5,7 @@ schemas:
   desc: programming language
   parent: root
   namespace: true
+  template: l.temp
   children:
     - operator
     - d
