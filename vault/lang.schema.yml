@@ -4,8 +4,7 @@ schemas:
   title: language
   desc: programming language
   parent: root
-  data:
-    namespace: true
+  namespace: true
   children:
     - operator
     - d
@@ -51,17 +50,11 @@ schemas:
 - id: create
 - id: compare
 - id: equal
-  sections:
-    - value
-    - reference
 - id: scope
 - id: inspect
 - id: format
 - id: iterate
 - id: destructure
-  sections:
-    - array
-    - obj
 
 # --- data
 - id: d
@@ -76,7 +69,7 @@ schemas:
     - iterator
     - bottom
 - id: validation
-  description: "runtime validation of data"
+  desc: "runtime validation of data"
 - id: boolean
 - id: string
   children:
@@ -107,23 +100,14 @@ schemas:
     - io
     - path
     - files.inspect
-  sections:
-  - zip
-  - nav
 - id: files.inspect
   pattern: inspect
-  sections:
-    - binary # check if file is binary
 - id: path
 - id: runtime
   desc: "java, .net, etc"
 - id: lib
   namespace: true
 - id: import
-  sections:
-  - dynamic
-  - reload
-
 # --- deb.lib
 - id: "dev.lib"
   title: lib
@@ -168,8 +152,6 @@ schemas:
 - id: image
   desc: image processing
 - id: web
-  sections:
-    - static-sites
   children:
     - crm
     - web.security
@@ -188,11 +170,6 @@ schemas:
     - shell
 - id: shell
   desc: execute shell commands
-  sections:
-    - env
-    - exec
-    - fork
-    - eval
 - id: cli
   desc: generate cli interface
 - id: uuid
@@ -212,27 +189,14 @@ schemas:
     - inheritance
 
 - id: scope
-  sections:
-    - public
-    - protected
-    - private
-
 - id: inheritance
 
 # --- func
 - id: func
   title: functional
-  sections:
-    - positional
-    - varargs
-    - keyword
-    - mixed
-    - defaults
 
 # --- flow
 - id: flow
-  sections.children:
-    - ternary
   children:
     - if
     - while
@@ -249,9 +213,6 @@ schemas:
     - interface
 - id: generics
 - id: modifiers
-  sections:
-    - partial
-    - readonly
 - id: union
 - id: intersection
 - id: interface
