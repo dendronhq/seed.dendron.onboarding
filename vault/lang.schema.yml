@@ -56,36 +56,19 @@ schemas:
 - id: format
 - id: iterate
 - id: destructure
-
 # --- data
 - id: d
   title: data structure
   children:
-    - boolean
-    - string
-    - array
-    - dict
-    - set
-    - validation
-    - iterator
-    - bottom
-- id: validation
-  desc: "runtime validation of data"
-- id: boolean
-- id: string
-  children:
-    - regex
-- id: regex
-- id: set
-- id: array
-- id: dict
-  children:
-    - defaultdict
-- id: defaultdict
-- id: csv
-- id: json
-- id: iterator
-- id: bottom 
+    - pattern: boolean
+    - pattern: string
+      children:
+        - pattern: regex
+    - pattern: array
+    - pattern: dict
+    - pattern: set
+    - pattern: iterator
+    - pattern: bottom
 # --- dev
 - id: dev
   desc: "dev stuff"
