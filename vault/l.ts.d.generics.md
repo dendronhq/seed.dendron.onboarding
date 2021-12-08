@@ -4,7 +4,7 @@ title: ts.d.generics
 desc: ''
 updated: 1609216779677
 created: 1
-stub: false
+
 customLegacy:
   url: 'https://www.typescriptlang.org/docs/handbook/generics.html'
 ---

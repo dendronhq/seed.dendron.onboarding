@@ -4,7 +4,7 @@ title: Fast-csv
 desc: ''
 updated: 1599245212022
 created: 1599245212022
-stub: false
+
 links: |
   - https://c2fo.io/fast-csv/docs/introduction/getting-started
 ---

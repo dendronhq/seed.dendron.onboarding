@@ -4,7 +4,7 @@ title: Lib-jsnlog
 desc: ''
 updated: 1598636168653
 created: 1598636168653
-stub: false
+
 url: 'http://nodejs.jsnlog.com/'
 ---
 

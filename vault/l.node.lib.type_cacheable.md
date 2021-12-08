@@ -4,7 +4,7 @@ title: Lib-type_cacheable
 desc: ''
 updated: 1598636241982
 created: 1598636241982
-stub: false
+
 link: 'https://github.com/joshuaslate/type-cacheable'
 ---
 

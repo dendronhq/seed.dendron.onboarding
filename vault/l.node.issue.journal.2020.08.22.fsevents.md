@@ -4,7 +4,7 @@ title: fsevent issue
 desc: ''
 updated: 1598120430218
 created: 1598120430218
-stub: false
+
 ---
 
 Error: `fsevents` unavailable (this watcher can only be used on Darwin)

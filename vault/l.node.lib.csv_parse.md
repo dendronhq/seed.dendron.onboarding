@@ -4,7 +4,7 @@ title: Lib-csv_parse
 desc: ''
 updated: 1598636166186
 created: 1598636166186
-stub: false
+
 ---
 # Gotcha
 - npm name is `csv`

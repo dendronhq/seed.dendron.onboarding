@@ -4,7 +4,7 @@ title: Lib-jsonwebtoken
 desc: ''
 updated: 1598636169142
 created: 1598636169142
-stub: false
+
 res: 'https://www.npmjs.com/package/jsonwebtoken'
 ---
 

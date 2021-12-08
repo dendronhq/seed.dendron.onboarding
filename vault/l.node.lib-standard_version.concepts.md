@@ -4,7 +4,7 @@ title: concepts
 desc: ''
 updated: 1595516465742
 created: 1595516465742
-stub: false
+
 ---
 
 # Gen

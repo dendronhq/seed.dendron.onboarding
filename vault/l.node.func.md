@@ -4,7 +4,7 @@ title: Func
 desc: ''
 updated: 1599193918846
 created: 1599193918846
-stub: false
+
 ---
 
 # Libs

@@ -4,7 +4,7 @@ title: Fs-extra
 desc: ''
 updated: 1604100866774
 created: 1598636365013
-stub: false
+
 ---
 
 ## fs-extra

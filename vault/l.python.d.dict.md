@@ -4,7 +4,7 @@ title: Dict
 desc: ''
 updated: 1600019385810
 created: 1600019385810
-stub: false
+
 ---
 
 ## Gotchas

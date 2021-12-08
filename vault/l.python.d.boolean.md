@@ -4,7 +4,7 @@ title: Boolean
 desc: ''
 updated: 1603766642874
 created: 1600019385808
-stub: false
+
 ---
 
 

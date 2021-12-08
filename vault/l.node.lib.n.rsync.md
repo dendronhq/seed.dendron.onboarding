@@ -4,7 +4,7 @@ title: Rsync
 desc: ''
 updated: 1597856237082
 created: 1597856237082
-stub: false
+
 links: |
   - https://github.com/mattijs/node-rsync#readme
 ---

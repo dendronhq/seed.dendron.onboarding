@@ -4,7 +4,7 @@ title: ts.d.modifiers
 desc: ''
 updated: 1593881250954
 created: 1593881250954
-stub: false
+
 customLegacy:
   links:
     - 'https://www.typescriptlang.org/docs/handbook/utility-types.html'

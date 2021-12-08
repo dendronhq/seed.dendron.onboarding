@@ -4,7 +4,7 @@ title: node.lib-promise
 desc: ''
 updated: 1598636171496
 created: 1598636171496
-stub: false
+
 excerpt: null
 url: 'https://www.npmjs.com/package/promise'
 ---

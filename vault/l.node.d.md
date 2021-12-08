@@ -4,7 +4,7 @@ title: r.node.d
 desc: ''
 updated: 1609216941552
 created: 1
-stub: false
+
 customLegacy:
   path: r.node.d
 ---

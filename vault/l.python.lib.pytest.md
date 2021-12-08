@@ -4,7 +4,7 @@ title: pytest
 desc: ''
 updated: 1608489913732
 created: 1595705153631
-stub: false
+
 links: |
   - https://docs.pytest.org/en/stable/
 ---

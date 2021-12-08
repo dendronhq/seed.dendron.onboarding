@@ -4,7 +4,7 @@ title: Set
 desc: ''
 updated: 1598295141440
 created: 1598295141440
-stub: false
+
 source: 'https://www.pythoncheatsheet.org/blog/python-sets-what-why-how/'
 ---
 

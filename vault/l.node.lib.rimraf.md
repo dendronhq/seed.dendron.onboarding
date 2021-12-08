@@ -4,7 +4,7 @@ title: Rimraf
 desc: ''
 updated: 1599502741396
 created: 1599502741396
-stub: false
+
 source: |
   - https://github.com/isaacs/rimraf
 published: true

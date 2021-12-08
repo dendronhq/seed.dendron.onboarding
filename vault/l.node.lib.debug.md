@@ -4,7 +4,7 @@ title: Lib-debug
 desc: ''
 updated: 1607713169603
 created: 1598636166725
-stub: false
+
 url: 'https://github.com/visionmedia/debug'
 ---
 

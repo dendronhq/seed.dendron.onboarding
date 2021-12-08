@@ -4,6 +4,6 @@ title: Partial
 desc: ''
 updated: 1600019385813
 created: 1600019385813
-stub: false
+
 ---
 

@@ -4,7 +4,7 @@ title: cook
 desc: ''
 updated: 1595706309651
 created: 1595706309651
-stub: false
+
 ---
 
 ### only run one test

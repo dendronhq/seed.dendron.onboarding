@@ -4,7 +4,7 @@ title: r.node.d.time
 desc: ''
 updated: 1
 created: 1
-stub: false
+
 customLegacy:
   path: r.node.d.time
 ---

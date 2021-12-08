@@ -4,7 +4,7 @@ title: Read
 desc: ''
 updated: 1598636168110
 created: 1598636168110
-stub: false
+
 ---
 # Gen
 - streaming builder for node js

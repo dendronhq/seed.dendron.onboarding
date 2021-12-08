@@ -4,6 +4,6 @@ title: Ruby
 desc: ''
 updated: 1603296628620
 created: 1603296628620
-stub: false
+
 ---
 

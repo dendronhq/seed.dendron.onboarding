@@ -4,7 +4,7 @@ title: Cli
 desc: generate cli interface
 updated: 1599018700870
 created: 1599018700870
-stub: false
+
 ---
 
 # CLI

@@ -4,6 +4,6 @@ title: Orm
 desc: ''
 updated: 1603296629866
 created: 1603296629866
-stub: false
+
 ---
 

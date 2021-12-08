@@ -4,7 +4,7 @@ title: r.node.lib-gray_matter
 desc: ''
 updated: 1603138990543
 created: 1598195815392
-stub: false
+
 links: |
   - https://www.npmjs.com/package/gray-matter
 ---

@@ -4,7 +4,7 @@ title: l.python.dev.layout
 desc: ''
 updated: 1593795156369
 created: 1593795156369
-stub: false
+
 customLegacy:
   path: l.python.dev.layout
 ---

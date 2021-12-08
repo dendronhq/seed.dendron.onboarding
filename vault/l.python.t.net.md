@@ -4,7 +4,7 @@ title: Net
 desc: ''
 updated: 1627434515700
 created: 1627430712866
-stub: false
+
 ---
 
 ## Cookbook

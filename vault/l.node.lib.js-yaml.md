@@ -4,7 +4,7 @@ title: r.node.lib.js_yaml
 desc: ''
 updated: 1
 created: 1
-stub: false
+
 customLegacy:
   path: r.node.lib.js_yaml
 ---

@@ -4,7 +4,7 @@ title: io
 desc: ''
 updated: 1596162984804
 created: 1596162984804
-stub: false
+
 ---
 
 # Inspect

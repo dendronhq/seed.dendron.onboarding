@@ -4,7 +4,7 @@ title: Lib-node_cache
 desc: ''
 updated: 1598636241355
 created: 1598636241355
-stub: false
+
 link: 'https://github.com/node-cache/node-cache'
 ---
 

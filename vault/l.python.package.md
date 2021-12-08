@@ -4,7 +4,7 @@ title: Packages
 desc: ''
 updated: 1593881250655
 created: 1593881250655
-stub: false
+
 customLegacy:
   links:
     - 'http://lucumr.pocoo.org/2012/6/22/hate-hate-hate-everywhere/'

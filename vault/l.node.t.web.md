@@ -4,7 +4,7 @@ title: Web
 desc: ''
 updated: 1603429463974
 created: 1601613111884
-stub: false
+
 ---
 
 - smaller express: https://github.com/talentlessguy/tinyhttp

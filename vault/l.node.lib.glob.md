@@ -4,7 +4,7 @@ title: Glob
 desc: ''
 updated: 1599502983096
 created: 1599502983096
-stub: false
+
 published: true
 source: |
   - https://www.npmjs.com/package/glob

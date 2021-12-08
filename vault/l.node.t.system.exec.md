@@ -4,7 +4,7 @@ title: Exec
 desc: executing system comm
 updated: 1598107015429
 created: 1598107015429
-stub: false
+
 ---
 
 # Library

@@ -4,7 +4,7 @@ title: Comment-json
 desc: ''
 updated: 1597073671954
 created: 1597073671954
-stub: false
+
 links: |
   - https://github.com/kaelzhang/node-comment-json
 ---

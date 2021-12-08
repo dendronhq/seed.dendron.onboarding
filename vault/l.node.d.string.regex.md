@@ -4,6 +4,6 @@ title: Regex
 desc: ''
 updated: 1599503947390
 created: 1599503947390
-stub: false
+
 ---
 

@@ -4,7 +4,7 @@ title: Crm
 desc: ''
 updated: 1605233433936
 created: 1601613681367
-stub: false
+
 ---
 
 - admin bro: https://nodejs.libhunt.com/admin-bro-alternatives

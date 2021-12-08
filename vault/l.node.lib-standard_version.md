@@ -4,6 +4,6 @@ title: Lib-standard_version
 desc: ''
 updated: 1603296628933
 created: 1603296628933
-stub: false
+
 ---
 

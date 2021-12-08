@@ -4,7 +4,7 @@ title: Module-alias
 desc: ''
 updated: 1600971656304
 created: 1600971656304
-stub: false
+
 sources:
   - name: ""
     url: https://www.npmjs.com/package/module-alias

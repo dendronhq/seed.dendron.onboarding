@@ -4,7 +4,7 @@ title: Cli
 desc: ''
 updated: 1597109464988
 created: 1597109464988
-stub: false
+
 links: |
   - https://github.com/conventional-changelog/standard-version
 ---

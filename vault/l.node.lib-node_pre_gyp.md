@@ -4,7 +4,7 @@ title: r.node.lib-node_pre_gyp
 desc: ''
 updated: 1609216941590
 created: 1
-stub: false
+
 customLegacy:
   path: r.node.lib-node_pre_gyp
 ---

@@ -4,7 +4,7 @@ title: Child_process
 desc: ''
 updated: 1600533322089
 created: 1600533322089
-stub: false
+
 sources:
   - name: ""
     url: https://nodejs.org/api/child_process.html

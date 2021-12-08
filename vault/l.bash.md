@@ -4,7 +4,7 @@ title: Bash
 desc: ''
 updated: 1607064091564
 created: 1603296628604
-stub: false
+
 ---
 
 

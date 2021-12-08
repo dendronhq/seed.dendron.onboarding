@@ -4,7 +4,7 @@ title: Lib-uuid
 desc: ''
 updated: 1598636242468
 created: 1598636242468
-stub: false
+
 link: 'https://www.npmjs.com/package/uuid'
 ---
 

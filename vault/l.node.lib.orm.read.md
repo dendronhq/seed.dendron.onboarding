@@ -4,7 +4,7 @@ title: Read
 desc: ''
 updated: 1598636170943
 created: 1
-stub: false
+
 tags: []
 url: 'https://www.npmjs.com/package/orm'
 ---

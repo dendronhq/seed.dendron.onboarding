@@ -4,6 +4,6 @@ title: Javascript
 desc: ''
 updated: 1603296628921
 created: 1603296628921
-stub: false
+
 ---
 

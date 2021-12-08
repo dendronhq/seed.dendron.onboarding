@@ -4,7 +4,7 @@ title: Github-slugger
 desc: ''
 updated: 1600015872428
 created: 1600015872428
-stub: false
+
 source: |
   - https://github.com/Flet/github-slugger
 ---

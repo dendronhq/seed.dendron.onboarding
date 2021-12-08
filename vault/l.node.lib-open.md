@@ -4,7 +4,7 @@ title: Lib-open
 desc: ''
 updated: 1597258522428
 created: 1597258522428
-stub: false
+
 customLegacy:
   links:
     - 'https://www.npmjs.com/package/open'

@@ -4,7 +4,7 @@ title: if
 desc: ''
 updated: 1612744832651
 created: 1595536733535
-stub: false
+
 ---
 
 # Synopsis

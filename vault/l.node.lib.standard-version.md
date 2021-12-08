@@ -4,7 +4,7 @@ title: Standard version
 desc: ''
 updated: 1593888333378
 created: 1593888333378
-stub: false
+
 links: |
   - https://github.com/conventional-changelog/standard-version
 ---

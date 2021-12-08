@@ -4,6 +4,6 @@ title: Boolean
 desc: ''
 updated: 1600019385782
 created: 1600019385782
-stub: false
+
 ---
 

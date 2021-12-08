@@ -4,6 +4,6 @@ title: Journal
 desc: ''
 updated: 1603296636763
 created: 1603296636763
-stub: false
+
 ---
 

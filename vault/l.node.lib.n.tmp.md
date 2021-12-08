@@ -4,7 +4,7 @@ title: tmp
 desc: ''
 updated: 1596127989273
 created: 1596127989273
-stub: false
+
 links: |
   - https://www.npmjs.com/package/tmp
 ---

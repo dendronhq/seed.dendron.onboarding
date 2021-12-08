@@ -4,7 +4,7 @@ title: node.lib-request
 desc: ''
 updated: 1598636172038
 created: 1598636172038
-stub: false
+
 excerpt: null
 url: 'https://github.com/request/request'
 ---

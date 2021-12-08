@@ -4,6 +4,6 @@ title: File_type
 desc: ''
 updated: 1603296629859
 created: 1603296629859
-stub: false
+
 ---
 

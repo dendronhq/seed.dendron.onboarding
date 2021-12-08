@@ -4,7 +4,7 @@ title: Read
 desc: ''
 updated: 1598636167308
 created: 1598636167308
-stub: false
+
 url: 'https://www.npmjs.com/package/file-type'
 ---
 ### fileType

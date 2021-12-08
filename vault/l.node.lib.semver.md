@@ -4,7 +4,7 @@ title: semver
 desc: ''
 updated: 1595375207064
 created: 1595375207064
-stub: false
+
 link: 'https://www.npmjs.com/package/semver'
 ---
 

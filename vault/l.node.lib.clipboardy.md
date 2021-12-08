@@ -4,7 +4,7 @@ title: clipboardy
 desc: ''
 updated: 1595598366156
 created: 1595598366156
-stub: false
+
 links: |
   - https://github.com/sindresorhus/clipboardy
 ---

@@ -4,7 +4,7 @@ title: Lib-mysql
 desc: ''
 updated: 1598636170261
 created: 1598636170261
-stub: false
+
 ---
 [[l.node.lib.mysql]]
 

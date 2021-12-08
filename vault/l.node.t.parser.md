@@ -4,7 +4,7 @@ title: Parser
 desc: ''
 updated: 1611945568786
 created: 1600438837910
-stub: false
+
 ---
 
 - https://sap.github.io/chevrotain/docs/

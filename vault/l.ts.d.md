@@ -4,7 +4,7 @@ title: Data Structures
 desc: ''
 updated: 1597895566591
 created: 1597895566591
-stub: false
+
 ---
 
 # Mapped

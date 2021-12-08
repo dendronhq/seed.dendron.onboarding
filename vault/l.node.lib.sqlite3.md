@@ -4,6 +4,6 @@ title: Sqlite3
 desc: ''
 updated: 1603296629867
 created: 1603296629867
-stub: false
+
 ---
 

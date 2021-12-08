@@ -4,7 +4,7 @@ title: Automation
 desc: ''
 updated: 1602221390001
 created: 1602221390001
-stub: false
+
 ---
 
 # Projects

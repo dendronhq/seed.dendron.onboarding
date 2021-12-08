@@ -4,7 +4,7 @@ title: Time
 desc: ''
 updated: 1599193611756
 created: 1599193611756
-stub: false
+
 ---
 
 # Lib

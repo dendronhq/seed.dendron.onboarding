@@ -4,7 +4,7 @@ title: Db
 desc: ''
 updated: 1605827411421
 created: 1599771527793
-stub: false
+
 ---
 
 # ORM

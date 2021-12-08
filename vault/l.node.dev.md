@@ -4,7 +4,7 @@ title: r.node.dev
 desc: ''
 updated: 1609216941540
 created: 1
-stub: false
+
 customLegacy:
   path: r.node.dev
 ---

@@ -4,7 +4,7 @@ title: Typescript
 desc: ''
 updated: 1638927774279
 created: 1593881250955
-stub: false
+
 customLegacy:
   schema: lang
 ---

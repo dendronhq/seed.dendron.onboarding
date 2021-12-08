@@ -4,7 +4,7 @@ title: Array
 desc: ''
 updated: 1600019385784
 created: 1600019385784
-stub: false
+
 ---
 
 ## Gotchas

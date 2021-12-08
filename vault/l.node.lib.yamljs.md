@@ -4,7 +4,7 @@ title: Yamljs
 desc: ''
 updated: 1598636320516
 created: 1598636320516
-stub: false
+
 ---
 
 # Note

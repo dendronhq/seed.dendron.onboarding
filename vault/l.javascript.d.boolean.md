@@ -4,7 +4,7 @@ title: Boolean
 desc: ''
 updated: 1598047083875
 created: 1598047083875
-stub: false
+
 source: >-
   https://developer.mozilla.org/en-US/docs/Glossary/Truthy#:~:text=In%20JavaScript%2C%20a%20truthy%20value,type%20coercion%20in%20Boolean%20contexts.
 ---

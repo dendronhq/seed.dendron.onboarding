@@ -4,7 +4,7 @@ title: cli
 desc: ''
 updated: 1596142521522
 created: 1596142521522
-stub: false
+
 ---
 
 # Synposis
