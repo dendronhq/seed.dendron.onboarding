@@ -10,88 +10,136 @@ schemas:
     - pattern: op
       title: operator
       children:
-        - pattern: comment
-          desc: "how to do comments"
-        - pattern: create
-          desc: "creating variables"
+        - pattern: assign
+          title: assignment
+          desc: "how to assign variables"
         - pattern: compare
+          title: compare
           desc: "comparing variables"
         - pattern: inspect
-          desc: "how to introspect variables"
-        - pattern: destructure
+          title: inspect
+          desc: "how to inspect variables"
+        - pattern: destruc
+          title: destructure
           desc: "how to destructure variables"
     - pattern: d
       title: data structure
       children:
         - pattern: boolean
+          title: boolean
         - pattern: string
+          title: string
           children:
             - pattern: regex
+              title: regex
             - pattern: format
+              title: format
               desc: "how to format strings"
         - pattern: array
+          title: array
         - pattern: dict
+          title: dict
         - pattern: set
+          title: set
         - pattern: iterator
-        - pattern: bottom
+          title: iterator
         - pattern: array
+          title: array
         - pattern: dict
+          title: dictionary
         - pattern: set
+          title: set
         - pattern: iterator
-        - pattern: bottom
+          title: iterator
     - pattern: flow
+      title: flow
     - pattern: lib
+      title: lib
       desc: "popular libraries"
       namespace: true
     - pattern: dev
       children:
-      - pattern: migration
-      - pattern: runtime
-      - pattern: mode
       - pattern: upgrade
+        title: upgrade
+        desc: "how to upgrade language"
+      - pattern: runtime
+        title: runtime
+        desc: "run language in different runtimes (eg. jvm, .net, etc)"
       - pattern: lib
+        title: lib
         desc: "how to develop a library"
         children:
           - pattern: publish
+            title: publish
           - pattern: binary
+            title: binary
             desc: "how to create a static binary"
           - pattern: import
+            title: import
             desc: "how to import a library"
           - pattern: export
+            title: export
             desc: "how to export a library"
           - pattern: dynamic
+            title: dynamic
             desc: "how to dynamically inspect and load a library"
     - pattern: t
       title: topic
+      children:
+        - pattern: dist
+          title: distributed systems
+        - pattern: system
+          title: systems programming
+        - pattern: net
+          title: networking
+        - pattern: cache
+          title: caching
+        - pattern: time
+          title: time
+        - pattern: math
+          title: math
+        - pattern: web
+          title: web development
+        - pattern: parser
+        - pattern: automation
+        - pattern: config
+        - pattern: validation
+        - pattern: design
+        - pattern: security
     - pattern: files
+      title: files
       desc: "working with file system"
       children:
         - pattern: io
+          title: "input/output"
+          desc: "how to do i/o operations"
         - pattern: path
+          title: path
+          desc: "how to work with file paths"
         - pattern: inspect
+          title: inspect
+          desc: "how to inspect file properties"
+        - pattern: image
+          title: images
     - pattern: oo
+      title: object oriented
+      desc: "how to use oo paradigm"
     - pattern: func
+      title: functional
+      desc: "how to use functional paradigm"
     - pattern: types
+      title: type system
     - pattern: qa
+      title: quality assurance
       children: 
         - pattern: tests
+          title: tests
         - pattern: profile
+          title: profile
         - pattern: debug
+          title: debug
     - pattern: opt
       title: optimization
-    - pattern: m
-      title: meta
-      children: 
-        - pattern: versions
-# --- dev
-- id: files
-  children:
-    - io
-    - path
-    - files.inspect
-- id: files.inspect
-  pattern: inspect
-- id: path
 # --- topics
 - id: t
   title: topic
