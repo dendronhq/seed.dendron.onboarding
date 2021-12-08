@@ -2,9 +2,8 @@
 id: f06e6035-dfe0-4f5c-bd8f-28568e2c02a3
 title: pytest
 desc: ''
-updated: 1608489913732
+updated: 1638986297050
 created: 1595705153631
-
 links: |
   - https://docs.pytest.org/en/stable/
 ---

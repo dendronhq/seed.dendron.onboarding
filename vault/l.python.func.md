@@ -1,12 +1,10 @@
 ---
 id: 4baeb9d2-7152-4612-a817-0b3fdf2b4137
-title: Function
+title: Functional
 desc: ''
-updated: 1600019385617
+updated: 1638986269341
 created: 1600019385617
-
 ---
-
 
 ## Args
 

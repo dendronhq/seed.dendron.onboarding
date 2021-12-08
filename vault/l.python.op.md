@@ -2,9 +2,8 @@
 id: 5f712ff2-e49d-4d90-9dba-185f1925ecc8
 title: Operator
 desc: ''
-updated: 1600019385618
+updated: 1638986339551
 created: 1600019385618
-
 ---
 
 # Equal
