@@ -4,6 +4,7 @@ mermaid: true
 useKatex: true
 dev:
     enablePreviewV2: true
+    enableWebUI: true
 site:
     copyAssets: true
     siteHierarchies:
