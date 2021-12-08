@@ -23,6 +23,7 @@ commands:
             confirmVaultOnCreate: false
             leaveTrace: false
             bubbleUpCreateNew: true
+            fuzzThreshold: 0.2
     randomNote: {}
     insertNote:
         initialValue: templates
@@ -32,7 +33,7 @@ commands:
     insertNoteIndex:
         enableMarker: false
 workspace:
-    dendronVersion: 0.71.7
+    dendronVersion: 0.72.0
     vaults:
         -
             fsPath: vault
