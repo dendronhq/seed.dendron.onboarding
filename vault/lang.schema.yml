@@ -67,30 +67,30 @@ schemas:
     - pattern: dev
       title: dev
       children:
-      - pattern: upgrade
-        title: upgrade
-        desc: "how to upgrade language"
-      - pattern: runtime
-        title: runtime
-        desc: "run language in different runtimes (eg. jvm, .net, etc)"
-      - pattern: lib
-        title: lib
-        desc: "how to develop a library"
-        children:
-          - pattern: publish
-            title: publish
-          - pattern: binary
-            title: binary
-            desc: "how to create a static binary"
-          - pattern: import
-            title: import
-            desc: "how to import a library"
-          - pattern: export
-            title: export
-            desc: "how to export a library"
-          - pattern: dynamic
-            title: dynamic
-            desc: "how to dynamically inspect and load a library"
+        - pattern: upgrade
+          title: upgrade
+          desc: "how to upgrade language"
+        - pattern: runtime
+          title: runtime
+          desc: "run language in different runtimes (eg. jvm, .net, etc)"
+        - pattern: lib
+          title: lib
+          desc: "how to develop a library"
+          children:
+            - pattern: publish
+              title: publish
+            - pattern: binary
+              title: binary
+              desc: "how to create a static binary"
+            - pattern: import
+              title: import
+              desc: "how to import a library"
+            - pattern: export
+              title: export
+              desc: "how to export a library"
+            - pattern: dynamic
+              title: dynamic
+              desc: "how to dynamically inspect and load a library"
     - pattern: t
       title: topic
       children:
@@ -158,16 +158,16 @@ schemas:
     - pattern: types
       title: type system
       children:
-      - pattern: generics
-        title: generics
-      - pattern: modifiers
-        title: modifiers
-      - pattern: union
-        title: union
-      - pattern: intersection
-        title: intersection
-      - pattern: interface
-        title: interface
+        - pattern: generics
+          title: generics
+        - pattern: modifiers
+          title: modifiers
+        - pattern: union
+          title: union
+        - pattern: intersection
+          title: intersection
+        - pattern: interface
+          title: interface
     - pattern: qa
       title: quality assurance
       children: 
@@ -177,5 +177,3 @@ schemas:
           title: profile
         - pattern: debug
           title: debug
-    - pattern: opt
-      title: optimization
