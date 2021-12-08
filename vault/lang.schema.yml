@@ -7,6 +7,9 @@ schemas:
   namespace: true
   template: l.temp
   children:
+    - pattern: quickstart
+      title: quickstart
+      desc: "get to hello world"
     - pattern: op
       title: operator
       children:
