@@ -7,65 +7,83 @@ schemas:
   namespace: true
   template: l.temp
   children:
-    - operator
-    - d
-    - flow
-    - lib
-    - dev
-    - t
-    - files
-    - oo
-    - func
-    - types
-    - qa
-    - opt
-    - m
-- id: m
-  title: meta
-  children: 
-    - pattern: versions
-- id: opt
-  title: optimization
-- id: qa
-  children: 
-    - pattern: tests
-    - pattern: profile
-    - pattern: debug
-# --- operator
-- id: operator
-  pattern: op
-  children:
-    - pattern: comment
-    - pattern: create
-    - pattern: compare
-    - pattern: equal
-    - pattern: scope
-    - pattern: inspect
-    - pattern: format
-    - pattern: iterate
-    - pattern: destructure
-# --- data
-- id: d
-  title: data structure
-  children:
-    - pattern: boolean
-    - pattern: string
+    - pattern: op
+      title: operator
       children:
-        - pattern: regex
-    - pattern: array
-    - pattern: dict
-    - pattern: set
-    - pattern: iterator
-    - pattern: bottom
+        - pattern: comment
+          desc: "how to do comments"
+        - pattern: create
+          desc: "creating variables"
+        - pattern: compare
+          desc: "comparing variables"
+        - pattern: inspect
+          desc: "how to introspect variables"
+        - pattern: destructure
+          desc: "how to destructure variables"
+    - pattern: d
+      title: data structure
+      children:
+        - pattern: boolean
+        - pattern: string
+          children:
+            - pattern: regex
+            - pattern: format
+              desc: "how to format strings"
+        - pattern: array
+        - pattern: dict
+        - pattern: set
+        - pattern: iterator
+        - pattern: bottom
+        - pattern: array
+        - pattern: dict
+        - pattern: set
+        - pattern: iterator
+        - pattern: bottom
+    - pattern: flow
+    - pattern: lib
+      desc: "popular libraries"
+      namespace: true
+    - pattern: dev
+      children:
+      - pattern: migration
+      - pattern: runtime
+      - pattern: mode
+      - pattern: upgrade
+      - pattern: lib
+        desc: "how to develop a library"
+        children:
+          - pattern: publish
+          - pattern: binary
+            desc: "how to create a static binary"
+          - pattern: import
+            desc: "how to import a library"
+          - pattern: export
+            desc: "how to export a library"
+          - pattern: dynamic
+            desc: "how to dynamically inspect and load a library"
+    - pattern: t
+      title: topic
+    - pattern: files
+      desc: "working with file system"
+      children:
+        - pattern: io
+        - pattern: path
+        - pattern: inspect
+    - pattern: oo
+    - pattern: func
+    - pattern: types
+    - pattern: qa
+      children: 
+        - pattern: tests
+        - pattern: profile
+        - pattern: debug
+    - pattern: opt
+      title: optimization
+    - pattern: m
+      title: meta
+      children: 
+        - pattern: versions
 # --- dev
-- id: dev
-  desc: "dev stuff"
-  children:
-    - pattern: dev.lib
-    - pattern: migration
-    - pattern: runtime
-    - pattern: mode
-    - pattern: upgrade
 - id: files
   children:
     - io
@@ -74,25 +92,6 @@ schemas:
 - id: files.inspect
   pattern: inspect
 - id: path
-- id: lib
-  namespace: true
-- id: import
-# --- deb.lib
-- id: "dev.lib"
-  title: lib
-  pattern: lib
-  children:
-    - publish
-    - binary
-    - import
-    - export
-    - dynamic
-- id: dynamic
-  desc: dynamically inspecting and modifying lib
-- id: publish
-- id: binary
-  desc: how to create executable binaries
-- id: export
 # --- topics
 - id: t
   title: topic
@@ -190,15 +189,6 @@ schemas:
 - id: time
 - id: parser
 - id: security
-# docutils
-# systemd
-# - cpuinfo
-# concurrency
-# - threads
-# - channels
-# operators
-# - bitops
-
 # --- dist
 - id: dist
   desc: distributed systems
