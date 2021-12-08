@@ -53,11 +53,19 @@ schemas:
           title: iterator
     - pattern: flow
       title: flow
+      children:
+        - pattern: if
+          title: if
+        - pattern: for
+          title: for
+        - pattern: while
+          title: while
     - pattern: lib
       title: lib
       desc: "popular libraries"
       namespace: true
     - pattern: dev
+      title: dev
       children:
       - pattern: upgrade
         title: upgrade
@@ -90,10 +98,27 @@ schemas:
           title: distributed systems
         - pattern: system
           title: systems programming
+          children:
+            - pattern: uuid
+              title: uuid
+              desc: "generating unique identifiers"
+            - pattern: shell
+              title: shell
+              desc: "working with the shell"
+              children:
+                - pattern: exec
+                  title: exec
+                  desc: "performing exec command"
         - pattern: net
           title: networking
+          children:
+            - pattern: email
+              title: email
         - pattern: cache
           title: caching
+        - pattern: cli
+          title: command line interface
+          desc: "creating command line interfaces"
         - pattern: time
           title: time
         - pattern: math
@@ -101,11 +126,9 @@ schemas:
         - pattern: web
           title: web development
         - pattern: parser
-        - pattern: automation
-        - pattern: config
-        - pattern: validation
-        - pattern: design
+          title: parsing
         - pattern: security
+          title: security
     - pattern: files
       title: files
       desc: "working with file system"
@@ -124,11 +147,25 @@ schemas:
     - pattern: oo
       title: object oriented
       desc: "how to use oo paradigm"
+      children:
+        - pattern: scope
+        - pattern: inheritance
     - pattern: func
       title: functional
       desc: "how to use functional paradigm"
     - pattern: types
       title: type system
+      children:
+      - pattern: generics
+        title: generics
+      - pattern: modifiers
+        title: modifiers
+      - pattern: union
+        title: union
+      - pattern: intersection
+        title: intersection
+      - pattern: interface
+        title: interface
     - pattern: qa
       title: quality assurance
       children: 
@@ -140,107 +177,3 @@ schemas:
           title: debug
     - pattern: opt
       title: optimization
-# --- topics
-- id: t
-  title: topic
-  children:
-    - dist
-    - system
-    - net
-    - cache
-    - time
-    - image
-    - math
-    - web
-    - parser
-    - automation
-    - config
-    - validation
-    - design
-    - security
-- id: design
-  desc: viz design
-- id: cache
-- id: config
-  desc: config management
-- id: validation
-- id: math
-- id: image
-  desc: image processing
-- id: web
-  children:
-    - crm
-    - web.security
-- id: web.security
-  pattern: security
-- id: crm
-- id: net
-  desc: network and web
-  children:
-    - email
-- id: email
-- id: system
-  children:
-    - uuid
-    - cli
-    - shell
-- id: shell
-  desc: execute shell commands
-- id: cli
-  desc: generate cli interface
-- id: uuid
-- id: exec
-  desc: "executing system comm"
-- id: io
-- id: migration
-- id: mode
-  desc: |
-    eg. 'strict' mode in javascript
-   
-# --- oo
-- id: oo
-  title: object oriented
-  children:
-    - scope
-    - inheritance
-
-- id: scope
-- id: inheritance
-
-# --- func
-- id: func
-  title: functional
-
-# --- flow
-- id: flow
-  children:
-    - if
-    - while
-- id: if
-- id: while
-
-# --- types
-- id: types
-  children:
-    - generics
-    - modifiers
-    - union
-    - intersection
-    - interface
-- id: generics
-- id: modifiers
-- id: union
-- id: intersection
-- id: interface
-
-# --- time
-- id: time
-- id: parser
-- id: security
-# --- dist
-- id: dist
-  desc: distributed systems
-  children:
-    - queues
-- id: queues
-- id: automation
