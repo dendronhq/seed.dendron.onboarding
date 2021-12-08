@@ -1,8 +1,8 @@
 ---
 id: d277e8d1-1ce3-427b-9389-8b08722270c2
-title: ts
+title: Typescript
 desc: ''
-updated: 1593881250955
+updated: 1638927774279
 created: 1593881250955
 stub: false
 customLegacy:

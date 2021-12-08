@@ -1,12 +1,9 @@
 ---
 id: 720eeea4-4040-4fb0-8705-57a80847a397
-title: r.css
+title: CSS
 desc: ''
-updated: 1609447318376
+updated: 1638927639782
 created: 1
-stub: false
-customLegacy:
-  path: r.css
 ---
 
 ## Resources

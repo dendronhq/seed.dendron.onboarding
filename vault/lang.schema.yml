@@ -22,40 +22,28 @@ schemas:
     - m
 - id: m
   title: meta
-  children: [versions]
-- id: versions
+  children: 
+    - pattern: versions
 - id: opt
   title: optimization
 - id: qa
   children: 
-    - tests
-    - profile
-    - debug
-- id: debug
-- id: profile
-- id: tests
+    - pattern: tests
+    - pattern: profile
+    - pattern: debug
 # --- operator
 - id: operator
   pattern: op
   children:
-    - comment
-    - create
-    - compare
-    - equal
-    - scope
-    - inspect
-    - format
-    - iterate
-    - destructure
-- id: comment
-- id: create
-- id: compare
-- id: equal
-- id: scope
-- id: inspect
-- id: format
-- id: iterate
-- id: destructure
+    - pattern: comment
+    - pattern: create
+    - pattern: compare
+    - pattern: equal
+    - pattern: scope
+    - pattern: inspect
+    - pattern: format
+    - pattern: iterate
+    - pattern: destructure
 # --- data
 - id: d
   title: data structure
@@ -73,12 +61,11 @@ schemas:
 - id: dev
   desc: "dev stuff"
   children:
-    - dev.lib
-    - migration
-    - runtime
-    - mode
-    - upgrade
-- id: upgrade
+    - pattern: dev.lib
+    - pattern: migration
+    - pattern: runtime
+    - pattern: mode
+    - pattern: upgrade
 - id: files
   children:
     - io
@@ -87,8 +74,6 @@ schemas:
 - id: files.inspect
   pattern: inspect
 - id: path
-- id: runtime
-  desc: "java, .net, etc"
 - id: lib
   namespace: true
 - id: import
