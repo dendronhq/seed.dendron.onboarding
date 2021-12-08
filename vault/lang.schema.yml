@@ -149,7 +149,9 @@ schemas:
       desc: "how to use oo paradigm"
       children:
         - pattern: scope
+          title: scope
         - pattern: inheritance
+          title: inheritance
     - pattern: func
       title: functional
       desc: "how to use functional paradigm"
