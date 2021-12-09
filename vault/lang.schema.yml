@@ -6,7 +6,7 @@ schemas:
   desc: programming language
   parent: root
   namespace: true
-  template: l.temp
+  template: l.template
   children:
     - pattern: quickstart
       title: quickstart
