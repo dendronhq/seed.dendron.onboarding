@@ -39,20 +39,12 @@ schemas:
             - pattern: format
               title: format
               desc: "how to format strings"
-        - pattern: array
-          title: array
-        - pattern: dict
-          title: dict
         - pattern: set
           title: set
-        - pattern: iterator
-          title: iterator
         - pattern: array
           title: array
         - pattern: dict
           title: dictionary
-        - pattern: set
-          title: set
         - pattern: iterator
           title: iterator
     - pattern: flow
