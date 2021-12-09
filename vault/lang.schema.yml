@@ -1,6 +1,7 @@
 version: 1
 schemas:
-- id: l
+- id: lang
+  pattern: l
   title: language
   desc: programming language
   parent: root
