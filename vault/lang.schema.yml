@@ -1,6 +1,6 @@
 version: 1
 schemas:
-- id: lang
+- id: l
   pattern: l
   title: language
   desc: programming language
