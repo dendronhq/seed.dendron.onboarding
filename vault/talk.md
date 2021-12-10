@@ -40,7 +40,7 @@ The IDE for General Knowledge
 
 - Jonathan
   - Microsoft Vet
-  - Director of Technology at Golman Sachs
+  - Former Director of Technology at Golman Sachs
   - CTO of Dendron
 
 ---
