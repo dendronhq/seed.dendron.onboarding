@@ -2,7 +2,7 @@
 id: tHE7iewbLdyQioWGC4hgK
 title: Talk
 desc: ''
-updated: 1639098524920
+updated: 1639355690893
 created: 1639097693665
 theme: night
 transition: slide
@@ -35,13 +35,23 @@ The IDE for General Knowledge
 
 - Kevin
   - 5+ years at AWS
-  - Founded multiple startups 
+  - 2 years of consulting and various startups
   - Founder of Dendron, YC W21
 
 - Jonathan
-  - Microsoft Vet
+  - 6+ years at Microsoft 
   - Former Director of Technology at Golman Sachs
   - CTO of Dendron
+
+---
+
+### Dendron
+![Dendron](/assets/images/2021-12-09-17-44-26.png)
+
+---
+
+
+<iframe src="https://giphy.com/embed/3o6gDSdED1B5wjC2Gc" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ---
 
@@ -49,11 +59,11 @@ The IDE for General Knowledge
 
 > "Help humans organize, reference, and work with any amount of information"
 
---- 
+---
 
-# Demo
+### Demo
 
-- [[hello]]
+[[hello]]
 
 ---
 
