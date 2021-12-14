@@ -2,7 +2,7 @@
 id: tHE7iewbLdyQioWGC4hgK
 title: Talk
 desc: ''
-updated: 1639355690893
+updated: 1639447560253
 created: 1639097693665
 theme: night
 transition: slide
@@ -26,22 +26,6 @@ The IDE for General Knowledge
 - Context
 - Demo
 - Conclusion
-- Questions
-
----
-
-### Hi 👋
-
-
-- Kevin
-  - 5+ years at AWS
-  - 2 years of consulting and various startups
-  - Founder of Dendron, YC W21
-
-- Jonathan
-  - 6+ years at Microsoft 
-  - Former Director of Technology at Golman Sachs
-  - CTO of Dendron
 
 ---
 
