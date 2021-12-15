@@ -6,7 +6,7 @@ schemas:
   desc: programming language
   parent: root
   namespace: true
-  template: templates.lang
+  template: l.temp.root
   children:
     - pattern: quickstart
       title: quickstart
@@ -31,7 +31,7 @@ schemas:
       children:
         - pattern: boolean
           title: boolean
-          template: templates.lang.d.boolean
+          template: l.temp.boolean
         - pattern: string
           title: string
           children:
