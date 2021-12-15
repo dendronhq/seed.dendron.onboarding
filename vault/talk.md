@@ -2,7 +2,7 @@
 id: tHE7iewbLdyQioWGC4hgK
 title: Talk
 desc: ''
-updated: 1639447560253
+updated: 1639531881831
 created: 1639097693665
 theme: night
 transition: slide
@@ -12,30 +12,18 @@ logoImg: >-
 slideNumber: false
 ---
 
-# Dendron 
+
+### Dendron
 
 The IDE for General Knowledge
 
-- Kevin Lin (Founder) 
-- Jonathan Yeung (CTO)
-
----
-
-### Agenda
-
-- Context
-- Demo
-- Conclusion
-
----
-
-### Dendron
 ![Dendron](/assets/images/2021-12-09-17-44-26.png)
 
 ---
 
+![No Documentation](/assets/images/2021-12-14-17-21-33.png)
 
-<iframe src="https://giphy.com/embed/3o6gDSdED1B5wjC2Gc" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<!-- <iframe src="https://giphy.com/embed/3o6gDSdED1B5wjC2Gc" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
 
 ---
 
