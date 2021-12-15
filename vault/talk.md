@@ -2,7 +2,7 @@
 id: tHE7iewbLdyQioWGC4hgK
 title: Talk
 desc: ''
-updated: 1639531881831
+updated: 1639532732220
 created: 1639097693665
 theme: night
 transition: slide
@@ -23,7 +23,13 @@ The IDE for General Knowledge
 
 ![No Documentation](/assets/images/2021-12-14-17-21-33.png)
 
+[Via CommitStrip](https://www.commitstrip.com/en/2021/11/10/no-documentation/)
+
 <!-- <iframe src="https://giphy.com/embed/3o6gDSdED1B5wjC2Gc" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+
+---
+
+<iframe src="https://giphy.com/embed/JAYf53yMO7cNa" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hit-father-demo-JAYf53yMO7cNa">via GIPHY</a></p>
 
 ---
 
