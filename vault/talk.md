@@ -2,7 +2,7 @@
 id: tHE7iewbLdyQioWGC4hgK
 title: Talk
 desc: ''
-updated: 1639532732220
+updated: 1639533147038
 created: 1639097693665
 theme: night
 transition: slide
@@ -55,8 +55,8 @@ The IDE for General Knowledge
 
 ### Where to find us
 
-Bunch of links... #todo
-
----
-
-### Questions
+- [Getting Started Guide](https://wiki.dendron.so/notes/678c77d9-ef2c-4537-97b5-64556d6337f1/)
+- [Github](https://github.com/dendronhq/dendron)
+- [Discord](https://discord.gg/AE3NRw9)
+- [Twitter](https://twitter.com/dendronhq)
+- [Newsletter](https://buttondown.email/dendron)
