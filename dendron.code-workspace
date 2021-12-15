@@ -17,6 +17,7 @@
         "editor.tabCompletion": "on",
         "zenMode.hideStatusBar": true,
         "zenMode.hideTabs": false,
+        "zenMode.silentNotifications": false
     },
     "extensions": {
         "recommendations": [
