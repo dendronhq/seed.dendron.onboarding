@@ -2,14 +2,13 @@ version: 1
 schemas:
 - id: l
   pattern: l
-  title: language
+  title: lang
   desc: programming language
   parent: root
   namespace: true
   template: l.temp.root
   children:
     - pattern: quickstart
-      title: quickstart
       desc: "get to hello world"
     - pattern: op
       title: operator
@@ -30,63 +29,42 @@ schemas:
       title: data structure
       children:
         - pattern: boolean
-          title: boolean
           template: l.temp.boolean
         - pattern: string
-          title: string
           children:
             - pattern: regex
-              title: regex
             - pattern: format
-              title: format
               desc: "how to format strings"
         - pattern: set
-          title: set
         - pattern: array
-          title: array
         - pattern: dict
           title: dictionary
         - pattern: iterator
-          title: iterator
     - pattern: flow
-      title: flow
       children:
         - pattern: if
-          title: if
         - pattern: for
-          title: for
         - pattern: while
-          title: while
     - pattern: lib
-      title: lib
       desc: "popular libraries"
       namespace: true
     - pattern: dev
-      title: dev
       children:
         - pattern: upgrade
-          title: upgrade
           desc: "how to upgrade language"
         - pattern: runtime
-          title: runtime
           desc: "run language in different runtimes (eg. jvm, .net, etc)"
         - pattern: lib
-          title: lib
           desc: "how to develop a library"
           children:
             - pattern: publish
-              title: publish
             - pattern: binary
-              title: binary
               desc: "how to create a static binary"
             - pattern: import
-              title: import
               desc: "how to import a library"
             - pattern: export
-              title: export
               desc: "how to export a library"
             - pattern: dynamic
-              title: dynamic
               desc: "how to dynamically inspect and load a library"
     - pattern: t
       title: topic
@@ -97,58 +75,45 @@ schemas:
           title: systems programming
           children:
             - pattern: uuid
-              title: uuid
               desc: "generating unique identifiers"
             - pattern: shell
-              title: shell
               desc: "working with the shell"
               children:
                 - pattern: exec
-                  title: exec
                   desc: "performing exec command"
         - pattern: net
           title: networking
           children:
             - pattern: email
-              title: email
         - pattern: cache
           title: caching
         - pattern: cli
           title: command line interface
           desc: "creating command line interfaces"
         - pattern: time
-          title: time
         - pattern: math
-          title: math
         - pattern: web
           title: web development
         - pattern: parser
           title: parsing
         - pattern: security
-          title: security
     - pattern: files
-      title: files
       desc: "working with file system"
       children:
         - pattern: io
           title: "input/output"
           desc: "how to do i/o operations"
         - pattern: path
-          title: path
           desc: "how to work with file paths"
         - pattern: inspect
-          title: inspect
           desc: "how to inspect file properties"
         - pattern: image
-          title: images
     - pattern: oo
       title: object oriented
       desc: "how to use oo paradigm"
       children:
         - pattern: scope
-          title: scope
         - pattern: inheritance
-          title: inheritance
     - pattern: func
       title: functional
       desc: "how to use functional paradigm"
@@ -156,21 +121,13 @@ schemas:
       title: type system
       children:
         - pattern: generics
-          title: generics
         - pattern: modifiers
-          title: modifiers
         - pattern: union
-          title: union
         - pattern: intersection
-          title: intersection
         - pattern: interface
-          title: interface
     - pattern: qa
       title: quality assurance
       children: 
         - pattern: tests
-          title: tests
         - pattern: profile
-          title: profile
         - pattern: debug
-          title: debug
