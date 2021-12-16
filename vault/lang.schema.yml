@@ -1,12 +1,12 @@
 version: 1
 schemas:
-- id: l
-  pattern: l
+- id: lang
+  pattern: lang
   title: lang
   desc: programming language
   parent: root
   namespace: true
-  template: l.temp.root
+  template: lang.temp.root
   children:
     - pattern: quickstart
       desc: "get to hello world"
@@ -29,7 +29,7 @@ schemas:
       title: data structure
       children:
         - pattern: boolean
-          template: l.temp.boolean
+          template: lang.temp.boolean
         - pattern: string
           children:
             - pattern: regex

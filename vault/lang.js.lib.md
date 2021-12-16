@@ -4,10 +4,6 @@ title: Lib
 desc: ''
 updated: 1606083426423
 created: 1606083426423
-
-parent: ff5df125-ba0f-49f2-95ff-bffa08a188df
-children:
-  - e7599d82-4daa-4263-ab00-9a47dbd015a1
 ---
 
 

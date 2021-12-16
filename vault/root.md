@@ -9,4 +9,4 @@ created: 1603914438444
 
 This is the root fo your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top. 
 
-Check out the [[l.python]] page to get started.
+Check out the [[lang.python]] page to get started.

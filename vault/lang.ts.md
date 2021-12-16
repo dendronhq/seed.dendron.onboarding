@@ -4,7 +4,6 @@ title: Typescript
 desc: ''
 updated: 1638927774279
 created: 1593881250955
-
 customLegacy:
   schema: lang
 ---
@@ -12,13 +11,13 @@ customLegacy:
 - https://github.com/typescript-cheatsheets/react-typescript-cheatsheet
 
 ## ToC
-- [[l.ts.d]]
-- [[l.ts.d.modifiers]]
-- [[l.ts.d.advanced]]
-- [[l.ts.d.generics]]
-- [[l.ts.ref.config]]
-- [[l.ts.issues]]
-- [[l.ts.object]]
+- [[lang.ts.d]]
+- [[lang.ts.d.modifiers]]
+- [[lang.ts.d.advanced]]
+- [[lang.ts.d.generics]]
+- [[lang.ts.ref.config]]
+- [[lang.ts.issues]]
+- [[lang.ts.object]]
 
 ## === Use
 
