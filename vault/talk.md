@@ -2,7 +2,7 @@
 id: tHE7iewbLdyQioWGC4hgK
 title: Talk
 desc: ''
-updated: 1639583138448
+updated: 1639617478043
 created: 1639097693665
 theme: night
 transition: slide
@@ -22,6 +22,14 @@ The IDE for General Knowledge
 ---
 
 <iframe src="https://giphy.com/embed/3o6gDSdED1B5wjC2Gc" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+---
+
+![google](/assets/images/2021-12-15-17-16-59.png)
+
+---
+
+![bing](/assets/images/2021-12-15-17-17-51.png)
 
 ---
 
