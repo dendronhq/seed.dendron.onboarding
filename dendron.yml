@@ -1,3 +1,4 @@
+version: 4
 useFMTitle: true
 useNoteTitleForLink: true
 mermaid: true
@@ -15,7 +16,12 @@ site:
     description: Personal knowledge space
     siteLastModified: true
     gh_edit_branch: main
-version: 4
+    duplicateNoteBehavior:
+        action: useVault
+        payload:
+            - docs
+            - vault
+            - wiki
 commands:
     lookup:
         note:
@@ -35,6 +41,14 @@ commands:
 workspace:
     dendronVersion: 0.72.0
     vaults:
+        -
+            fsPath: vault
+            name: wiki
+            workspace: dendron-site
+        -
+            fsPath: vault
+            name: docs
+            workspace: dendron-docs
         -
             fsPath: vault
     journal:
@@ -78,9 +92,19 @@ workspace:
         todoIntegration: false
         createTaskSelectionType: selection2link
     enableEditorDecorations: true
+    workspaces:
+        dendron-docs:
+            remote:
+                type: git
+                url: 'git@github.com:dendronhq/dendron-docs.git'
+        dendron-site:
+            remote:
+                type: git
+                url: 'git@github.com:dendronhq/dendron-site.git'
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
     enableMermaid: true
     enablePrettyRefs: true
     enableKatex: true
+    automaticallyShowPreview: false
