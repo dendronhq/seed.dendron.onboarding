@@ -2,9 +2,11 @@
 id: HyCiNrUPfaYANWXaSVDng
 title: Daily
 desc: ''
-updated: 1638987140553
+updated: 1643820957727
 created: 1638987079281
 ---
+
+Today is <%= CURRENT_DAY %>
 
 ## Grateful
 <!-- 3 things I'm grateful for -->
@@ -14,6 +16,5 @@ created: 1638987079281
 
 ## Tasks
 <!-- Things to do from the day-->
-
 ## Zettels
 <!-- Things that come up during the day -->

@@ -5,24 +5,11 @@ schemas:
   desc: ""
   parent: root
   children:
-    - journal
-- id: journal
-  title: journal
-  desc: ""
-  parent: root
-  children:
-    - year
-- id: year
-  title: year
-  pattern: "[0-2][0-9][0-9][0-9]"
-  children: 
-    - month
-- id: month
-  title: month
-  pattern: "[0-9][0-9]"
-  children: 
-    - day
-- id: day
-  title: day
-  pattern: "[0-9][0-9]"
-  template: templates.daily
+    - pattern: journal
+      children:
+        - pattern: "[0-2][0-9][0-9][0-9]"
+          children:
+            - pattern: "[0-1][0-9]"
+              children:
+                - pattern: "[0-3][0-9]"
+                  template: templates.daily
