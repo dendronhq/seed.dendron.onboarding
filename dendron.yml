@@ -24,14 +24,6 @@ workspace:
     vaults:
         -
             fsPath: vault
-            name: wiki
-            workspace: dendron-site
-        -
-            fsPath: vault
-            name: docs
-            workspace: dendron-docs
-        -
-            fsPath: vault
     journal:
         dailyDomain: daily
         name: journal
