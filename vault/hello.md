@@ -2,7 +2,7 @@
 id: vmzzKtd1n8Hkf17eAumE5
 title: Hello
 desc: ''
-updated: 1638838929441
+updated: 1646604277580
 created: 1638837610286
 ---
 
@@ -16,7 +16,7 @@ Dendron helps **humans** organize, reference, and work with any amount of knowle
 
 ### Our Product
 
-We provide an open-source, local-first, markdown-based note-taking tool that helps developers work with notes like they do with code. Dendron borrows heavily from prior work in programming languages and developer tooling (which help developers organize and reference millions of lines of code) and applies the same principles to general knowledge. ^sMqRBWHSg3hx
+We provide an open-source, local-first, markdown-based note-taking tool that helps developers work with notes like they do with code. Dendron borrows heavily from prior work in programming languages and developer tooling (which help developers organize and reference millions of lines of code) and applies the same principles to general knowledge. 
 
 ### Our North Star
 
