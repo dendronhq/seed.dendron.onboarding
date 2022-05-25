@@ -69,11 +69,12 @@ workspace:
         dendron-docs:
             remote:
                 type: git
-                url: 'git@github.com:dendronhq/dendron-docs.git'
+                url: git@github.com:dendronhq/dendron-docs.git
         dendron-site:
             remote:
                 type: git
-                url: 'git@github.com:dendronhq/dendron-site.git'
+                url: git@github.com:dendronhq/dendron-site.git
+    enableFullHierarchyNoteTitle: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -94,7 +95,7 @@ publishing:
         - root
     enableSiteLastModified: true
     siteRootDir: docs
-    siteUrl: 'https://dendron.so'
+    siteUrl: https://dendron.so
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true

@@ -18,7 +18,11 @@
         "zenMode.hideStatusBar": true,
         "zenMode.hideTabs": false,
         "zenMode.silentNotifications": false,
-        "workbench.statusBar.visible": false
+        "workbench.statusBar.visible": false,
+        "explorer.fileNesting.enabled": true,
+        "explorer.fileNesting.patterns": {
+            "*": "${basename}.*.md",
+        }
     },
     "extensions": {
         "recommendations": [
