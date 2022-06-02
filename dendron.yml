@@ -64,17 +64,13 @@ workspace:
             L: low
         todoIntegration: false
         createTaskSelectionType: selection2link
+        taskCompleteStatus:
+            - done
+            - x
     enableEditorDecorations: true
-    workspaces:
-        dendron-docs:
-            remote:
-                type: git
-                url: git@github.com:dendronhq/dendron-docs.git
-        dendron-site:
-            remote:
-                type: git
-                url: git@github.com:dendronhq/dendron-site.git
     enableFullHierarchyNoteTitle: false
+    enableHandlebarTemplates: false
+    templateHierarchy: template
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -115,3 +111,4 @@ publishing:
         editBranch: main
         editViewMode: tree
     enablePrettyLinks: true
+    enableTaskNotes: true
