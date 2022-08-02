@@ -11,8 +11,6 @@ commands:
             fuzzThreshold: 0.2
             vaultSelectionModeOnCreate: smart
     randomNote: {}
-    insertNote:
-        initialValue: templates
     insertNoteLink:
         aliasMode: none
         enableMultiSelect: false
