@@ -4,10 +4,6 @@ title: python-frontmatter
 desc: ''
 updated: 1595699791306
 created: 1595699791306
-
-links: |
-  - https://pypi.org/project/python-frontmatter/
-  - https://github.com/eyeseast/python-frontmatter
 ---
 
 

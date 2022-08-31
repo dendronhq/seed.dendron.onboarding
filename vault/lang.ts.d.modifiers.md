@@ -4,10 +4,6 @@ title: ts.d.modifiers
 desc: ''
 updated: 1593881250954
 created: 1593881250954
-
-customLegacy:
-  links:
-    - 'https://www.typescriptlang.org/docs/handbook/utility-types.html'
 ---
 
 ### Partial<T>

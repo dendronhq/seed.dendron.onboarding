@@ -4,7 +4,5 @@ title: debugpy
 desc: ''
 updated: 1638986284420
 created: 1595702297021
-links: |
-  - https://github.com/microsoft/debugpy
 ---
 

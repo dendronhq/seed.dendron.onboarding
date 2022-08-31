@@ -4,9 +4,6 @@ title: Byebug
 desc: ''
 updated: 1596650455981
 created: 1596650455981
-
-links: |
-  - https://github.com/deivid-rodriguez/byebug
 ---
 
 ```
