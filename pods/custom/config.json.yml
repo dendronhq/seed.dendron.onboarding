@@ -1,0 +1,7 @@
+# description: configuration ID
+# type: string
+# required: true
+podId: json
+exportScope: Note
+podType: JSONExportV2
+destination: clipboard

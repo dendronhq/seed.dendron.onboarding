@@ -1,4 +1,5 @@
 podId: gdoc.async
 exportScope: Note
 podType: GoogleDocsExportV2
+wikiLinkToURL: true
 connectionId: gdoc.main
