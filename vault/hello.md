@@ -2,11 +2,14 @@
 id: vmzzKtd1n8Hkf17eAumE5
 title: Hello
 desc: ''
-updated: 1646604277580
+updated: 1662051544048
 created: 1638837610286
 ---
 
 ## World 🌎
+
+Quick Links:
+- check out our [[#our-north-star]]
 
 ## Dendron 🌱
 
