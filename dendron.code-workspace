@@ -1,6 +1,10 @@
 {
     "folders": [
         {
+            "path": "dendron-docs/notes",
+            "name": "dendron-docs"
+        },
+        {
             "path": "vault"
         }
     ],
@@ -21,7 +25,7 @@
         "workbench.statusBar.visible": false,
         "explorer.fileNesting.enabled": true,
         "explorer.fileNesting.patterns": {
-            "*": "${basename}.*.md",
+            "*": "${basename}.*.md"
         }
     },
     "extensions": {
@@ -29,7 +33,6 @@
             "dendron.dendron",
             "dendron.dendron-paste-image",
             "dendron.dendron-markdown-shortcuts",
-            "github.github-vscode-theme",
             "redhat.vscode-yaml"
         ],
         "unwantedRecommendations": [

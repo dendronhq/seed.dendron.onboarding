@@ -16,10 +16,19 @@ commands:
         enableMultiSelect: false
     insertNoteIndex:
         enableMarker: false
-    copyNoteLink: {}
+    copyNoteLink:
+        aliasMode: title
+    templateHierarchy: template
 workspace:
     dendronVersion: 0.85.0
     vaults:
+        -
+            fsPath: dendron-docs
+            remote:
+                type: git
+                url: git@github.com:dendronhq/dendron-docs.git
+            selfContained: true
+            name: dendron.docs
         -
             fsPath: vault
     journal:
@@ -33,6 +42,7 @@ workspace:
         addBehavior: asOwnDomain
     graph:
         zoomSpeed: 1
+        createStub: false
     enableAutoCreateOnDefinition: false
     enableXVaultWikiLink: false
     enableRemoteVaultInit: true
@@ -69,6 +79,7 @@ workspace:
     enableFullHierarchyNoteTitle: false
     enableHandlebarTemplates: false
     templateHierarchy: template
+    enableSmartRefs: false
 preview:
     enableFMTitle: true
     enableNoteTitleForLink: true
@@ -99,6 +110,7 @@ publishing:
             - docs
             - vault
             - wiki
+            - dendron-docs
     writeStubs: false
     seo:
         title: Dendron
