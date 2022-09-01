@@ -1,0 +1,8 @@
+podId: markdown
+exportScope: Note
+podType: MarkdownExportV2
+wikiLinkToURL: true
+destination: clipboard
+convertTagNotesToLinks: false
+convertUserNotesToLinks: false
+addFrontmatterTitle: false
