@@ -1,0 +1,4 @@
+podId: gdoc.async
+exportScope: Note
+podType: GoogleDocsExportV2
+connectionId: gdoc.main
