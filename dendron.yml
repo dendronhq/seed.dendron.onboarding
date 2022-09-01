@@ -25,6 +25,7 @@ workspace:
     vaults:
         -
             fsPath: dendron-docs
+            siteUrl: https://docs.dendron.so
             remote:
                 type: git
                 url: git@github.com:dendronhq/dendron-docs.git

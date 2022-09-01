@@ -18,3 +18,4 @@ dendron/vault
 dendron-docs
 dendron-site
 .backup
+pods/service-connections/
